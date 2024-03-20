@@ -78,7 +78,21 @@ body {
 }
 
 .about-section .column {
-    flex: 0 0 50%;
+    flex: 0 0 30%;
+    
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Adjust margin as needed */
+    margin-bottom: 50px; /* Adjust margin as needed */
+    gap: 30px
+}
+
+.contact-info .column {
+    flex: 0 0 30%;
     
 }
 
@@ -105,7 +119,7 @@ body {
 .about-section p {
     line-height: 1.5em;
     font-size: 17px;
-    color: black
+    color: #747474
 }
 
 .sponsorship-wrapper {
@@ -223,8 +237,14 @@ body {
 
 @media screen and (max-width: 768px) {
     .inner-section,
-    .about-section {
+    .about-section
+    {
         flex-direction: column;
+    }
+
+    .contact-info{
+        display: block;
+        padding: 50px 100px;
     }
 
     .inner-section.reverse{
