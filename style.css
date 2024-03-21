@@ -55,7 +55,8 @@ body {
 
 
 .header {
-    position: absolute;
+   background: black;
+    padding: 15px 0;
     top: 0;
     left: 0;
     width: 100%;
