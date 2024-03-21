@@ -39,8 +39,11 @@ body {
     font-size: 48px;
     color: #f4ba11;
     margin-bottom: 20px;
+    text-shadow: 4px 4px black;
 }
-
+.banner-content .button{
+    color: black;
+}
 .button {
     display: inline-block;
     padding: 15px 30px;
