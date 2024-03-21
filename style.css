@@ -93,8 +93,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px; /* Adjust margin as needed */
-    margin-bottom: 50px; /* Adjust margin as needed */
+    margin-top: 0px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
     gap: 30px
 }
 
@@ -227,7 +227,7 @@ body {
 }
 
 .contact-info{
-    padding: 120px 0px
+    padding: 70px 0px
 }
 
 .contact-info h3{
